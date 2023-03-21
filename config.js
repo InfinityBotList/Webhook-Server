@@ -8,10 +8,10 @@
  */
 
 module.exports = {
-    hook_secret: "",
-    bot_token: "",
-    domain: "",
-    guildID: "",
-    voteLogs: "",
-    port: 4223
-}
+  hook_secret: "",
+  bot_token: "",
+  domain: "",
+  guildID: "",
+  voteLogs: "",
+  port: 4223,
+};
