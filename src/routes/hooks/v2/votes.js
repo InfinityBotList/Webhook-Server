@@ -15,7 +15,7 @@ module.exports = async (fastify, opts) => {
     "/votes",
     webhook.hookListener(async (voteData, req, res) => {
       let client = req.client;
-      
+
       console.log(voteData);
 
       let embed = new MessageEmbed()
